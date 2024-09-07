@@ -397,6 +397,6 @@ let hardlevelPlan = `
 ....................
 ..........@.........`;
 
-levels = [hardlevelPlan];
+levels = [easyLevelPlan, hardlevelPlan];
 
 runGame(levels, CanvasDisplay);
